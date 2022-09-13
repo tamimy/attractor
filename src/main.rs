@@ -3,13 +3,13 @@ use std::fs::File;
 use std::io::Write;
 
 fn main() {
-    const PARTICLE_COUNT: usize = 5;
-    const TIME_DELTA: f64 = 0.01;
-    const TIME_STEPS: usize = 100;
+    const PARTICLE_COUNT: usize = 16;
+    const TIME_DELTA: f64 = 0.001;
+    const TIME_STEPS: usize = 1000;
 
-    let mut pos_file = File::create("pos_out").expect("Unable to create file!");
-    let mut vel_file = File::create("vel_out").expect("Unable to create file!");
-    let mut settings_file = File::create("settings_out").expect("Unable to create file!");
+    let mut pos_file = File::create("output/pos_out").expect("Unable to create file!");
+    let mut vel_file = File::create("output/vel_out").expect("Unable to create file!");
+    let mut settings_file = File::create("output/settings_out").expect("Unable to create file!");
 
     let mut rng = rand::thread_rng();
 
