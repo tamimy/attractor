@@ -1,6 +1,3 @@
-attractor is an N-body simulation project. This is to serve as practise for physics and programming. The number crunching is done by code written in Rust, and Jupyter notebooks are used to explain the theoretical aspect of the code along with visualizations using Python. This is supposed to be as simple possible so as to not confuse myself.
-
-
 ## What is attractor?
 attractor is an N-body simulation project. It is meant as practise for physics and programming.
 
