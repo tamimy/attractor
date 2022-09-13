@@ -1,2 +1,5 @@
 debug/
 target/
+pos_out
+vel_out
+settings_out
